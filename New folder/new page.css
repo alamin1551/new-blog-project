@@ -1,0 +1,147 @@
+/* navbar design start */
+.desk1{
+    width:15%;
+}
+.desk2{
+    width: 35%;
+}
+.desk3{
+    width: 50%;
+}
+.sm{
+    float: left;
+    padding: 10px 0;
+}
+
+.nav-logo img{
+    margin-top:5px;
+
+}
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+    text-align:right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-menu a{
+    background-color: transparent;
+   padding: 5px 10px;
+   font-size: 20px;
+  
+}
+/* navbar design end */
+
+/* profile design start */
+
+
+.profile .top-icon{
+    width: 150px !important;
+    right: 120px;
+}
+.profile .bottom-icon{
+    width: 150px !important;
+    left: 60px; 
+    /* transition:width 2s , transform 2s; */
+     bottom:-50px;
+   margin: 30px; 
+  
+    
+ } 
+
+ 
+.profile .profile-des p{
+    width: 50%;
+   
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* profile design end */
+
+/* About me design start */
+.about-logo{
+    width: 50%;
+    float: left;
+}
+.about-des{
+    width: 50%;
+    float: left;
+}
+
+.about-logo img{
+    width:300px;
+    height: 300px;
+    margin-top:50px;
+}
+
+.about-me p{
+    text-align: left;
+}
+/* About me design start */
+
+
+/* card design part start */
+
+.desk{
+    width: 30.33%;
+    float: left;
+}
+
+/* card design part end */
+
+
+/* achivement design start */
+.link{
+    width: 33.33%;
+    float: left;
+}
+ 
+.contact-links{
+    position: relative;
+}
+
+.media-icon{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin-top:150px;
+padding: 20px;
+
+
+}
+
+
+/* achivement design end */
+
+
+/* footer design start */
+
+.footer{
+    width: 100%;
+   display: flex;
+}
+.footer .footer-menu{
+width: 50%;
+
+}
+
+.footer .footer-des{ 
+  width: 50%;  
+
+ 
+}
+
+.footer-menu a{
+    display: inline;
+}
+.footer .footer-des{
+    font-size: 1.3rem;
+}
+/* footer design ends */
